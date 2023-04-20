@@ -16,13 +16,6 @@
 						"referenceName": "ADLSG2",
 						"type": "DatasetReference"
 					},
-					"name": "source2"
-				},
-				{
-					"dataset": {
-						"referenceName": "ADLSG2",
-						"type": "DatasetReference"
-					},
 					"name": "source3"
 				}
 			],
@@ -40,17 +33,6 @@
 				"     allowSchemaDrift: true,",
 				"     validateSchema: false,",
 				"     ignoreNoFilesFound: false) ~> source1",
-				"source(output(",
-				"          movie as string,",
-				"          title as string,",
-				"          genres as string,",
-				"          year as string,",
-				"          Rating as string,",
-				"          {Rotton Tomato} as string",
-				"     ),",
-				"     allowSchemaDrift: true,",
-				"     validateSchema: false,",
-				"     ignoreNoFilesFound: false) ~> source2",
 				"source(output(",
 				"          movie as string,",
 				"          title as string,",
