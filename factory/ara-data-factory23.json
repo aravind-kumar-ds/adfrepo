@@ -1,0 +1,9 @@
+{
+	"name": "ara-data-factory23",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a0558644-81be-49d7-9bc1-032f9cbf071b",
+		"tenantId": "861f4e7a-dfd2-4f99-b964-29280bf7b13d"
+	}
+}
